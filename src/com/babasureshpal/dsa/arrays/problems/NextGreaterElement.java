@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.babasureshpal.dsa.problems.arrays;
+package com.babasureshpal.dsa.arrays.problems;
 
 import java.util.HashMap;
 import java.util.Map;
