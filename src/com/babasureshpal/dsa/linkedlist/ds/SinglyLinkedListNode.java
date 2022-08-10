@@ -4,8 +4,8 @@
 package com.babasureshpal.dsa.linkedlist.ds;
 
 /**
- * @author sures
- *
+ * @author Baba Suresh Pal
+ * A Generic class representing the node for a singly linked list
  */
 public class SinglyLinkedListNode<T> {
 	public SinglyLinkedListNode<T> next;
