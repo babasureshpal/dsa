@@ -41,8 +41,9 @@ import java.util.Stack;
  *						then next is the next greater element for the current element (popped element from the stack) 
  *					->> Keep popping from the stack, while the popped (current) element is smaller than next. 
  *						next becomes the next greater element for all such popped elements. 
- *				iii) If next is smaller than the current element, then push the current element back to stack. 
-
+ *				iii) If next is smaller than the current element, then push the current element back to stack.  
+ *	Reference:
+ *		https://www.geeksforgeeks.org/next-greater-element/
  */
 public class NextGreaterElement {
 
