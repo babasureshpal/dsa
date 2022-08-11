@@ -47,10 +47,10 @@ package com.babasureshpal.dsa.graph.problems;
  * 		1.	https://www.geeksforgeeks.org/number-subarrays-sum-less-k/
  * 		
  */
-public class MinimumSubArray {
+public class CountMinimumSubArrays {
 
 	public static void main(String[] args) {
-		MinimumSubArray demo = new MinimumSubArray();
+		CountMinimumSubArrays demo = new CountMinimumSubArrays();
 		int array[] = { 1, 11, 2, 3, 15};
 		int k = 10;
 		int count = demo.bruteForceCountSubArray(array, k);
