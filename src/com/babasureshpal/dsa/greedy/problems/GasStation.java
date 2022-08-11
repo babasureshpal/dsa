@@ -73,9 +73,12 @@ package com.babasureshpal.dsa.greedy.problems;
  *			That's being said, if we find a starting point X that can reach the last station, 
  *			we don't have to loop back to check stations before X. 
  *			The gas will always be enough to cover the rest trip 
- *		
- *
- *	
+ *	Reference:
+ *		https://chaudhary1337.com/gas-station-interviewbit-solution-explained/
+ *		https://www.interviewbit.com/problems/gas-station/
+ *		https://afteracademy.com/blog/gas-station-problem
+ *		https://www.youtube.com/watch?v=-YScsZHhg7M
+ *		https://leetcode.com/problems/gas-station/discuss/805989/brute-force-one-pass-step-by-step-explanationwith-proof-graph-and-code-beginners-friendly
  */
 public class GasStation {
 
