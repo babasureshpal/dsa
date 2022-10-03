@@ -3,6 +3,7 @@ package com.babasureshpal.dsa.arrays.problems;
 
 /**
  * @author Baba Suresh Pal
+ * 	Problem: Search an element in an infinite array
  * 	Algorithm:
  * 		Since array is sorted, the first thing clicks into mind is binary search, 
  * 		but the problem here is that we don’t know size of array.

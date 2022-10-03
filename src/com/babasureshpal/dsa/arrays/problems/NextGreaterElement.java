@@ -70,37 +70,37 @@ public class NextGreaterElement {
 	
 	public void printNGE(int arr[]) {
 		int size = arr.length;
-		int i = 0;
+//		int i = 0;
 		Stack<Integer> stack = new Stack();
-		int element, next;
+		int current, next;
 
 		/* push the first element to stack */
 		stack.push(arr[0]);
 
 		// iterate for rest of the elements
-		for (i = 1; i < size; i++) {
+		for (int i = 1; i < size; i++) {
 			next = arr[i];
 			if (!stack.isEmpty()) {
 				// if stack is not empty, then
 				// pop an element from stack
-				element = stack.pop();
+				current = stack.pop();
 				/*
 				 * If the popped element is smaller than next, then a) print the pair b) keep
 				 * popping while elements are smaller and stack is not empty
 				 */
-				while (element < next) {
-					System.out.println(element + " --> " + next);
+				while (current < next) {
+					System.out.println(current + " --> " + next);
 					if (stack.isEmpty() == true) {
 						break;
 					}
-					element = stack.pop();
+					current = stack.pop();
 				}
 
 				/*
 				 * If element is greater than next, then push the element back
 				 */
-				if (element > next) {
-					stack.push(element);
+				if (current > next) {
+					stack.push(current);
 				}
 			}
 
@@ -115,9 +115,9 @@ public class NextGreaterElement {
 		 * the next greater element, so print -1 for them
 		 */
 		while (stack.isEmpty() == false) {
-			element = stack.pop();
+			current = stack.pop();
 			next = -1;
-			System.out.println(element + " -- " + next);
+			System.out.println(current + " -- " + next);
 		}
 	}
 	
@@ -125,39 +125,39 @@ public class NextGreaterElement {
 	
 	public void printNGEHashMap(int arr[]) {
 		int size = arr.length;
-		int i = 0;
+//		int i = 0;
 		Stack<Integer> stack = new Stack<Integer>();
 		HashMap<Integer, Integer> result = new HashMap<Integer, Integer>();
-		int element, next;
+		int current, next;
 
 		/* push the first element to stack */
 		stack.push(arr[0]);
 
 		// iterate for rest of the elements
-		for (i = 1; i < size; i++) {
+		for (int i = 1; i < size; i++) {
 			next = arr[i];
 			if (!stack.isEmpty()) {
 				// if stack is not empty, then
 				// pop an element from stack
-				element = stack.pop();
+				current = stack.pop();
 				/*
 				 * If the popped element is smaller than next, then a) print the pair b) keep
 				 * popping while elements are smaller and stack is not empty
 				 */
-				while (element < next) {
-					result.put(element, next);
+				while (current < next) {
+					result.put(current, next);
 //					System.out.println(element + " --> " + next);
 					if (stack.isEmpty() == true) {
 						break;
 					}
-					element = stack.pop();
+					current = stack.pop();
 				}
 
 				/*
 				 * If element is greater than next, then push the element back
 				 */
-				if (element > next) {
-					stack.push(element);
+				if (current > next) {
+					stack.push(current);
 				}
 			}
 
@@ -172,10 +172,10 @@ public class NextGreaterElement {
 		 * the next greater element, so print -1 for them
 		 */
 		while (stack.isEmpty() == false) {
-			element = stack.pop();
+			current = stack.pop();
 			next = -1;
 
-			result.put(element, -1);
+			result.put(current, -1);
 		}
 
 		for(Map.Entry<Integer, Integer> mapEntry : result.entrySet()) {

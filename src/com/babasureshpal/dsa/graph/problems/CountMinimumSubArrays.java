@@ -30,13 +30,13 @@ package com.babasureshpal.dsa.graph.problems;
  * 		An efficient solution is based on a sliding window technique that can be used to solve the problem. 
  * 		We use two pointers start and end to represent starting and ending points of the sliding window. 
  * 		(Note that we need to find contiguous parts).
- * 		Initially both start and endpoint to the beginning of the array, i.e. index 0. 
- * 		Now, let’s try to add a new element el. 
+ * 		Initially both start and end point to the beginning of the array, i.e. index 0. 
+ * 		Now, let’s try to add a new element X. 
  * 		There are two possible conditions.
  * 		Case 1: 
  * 			If sum is less than k, increment end by one position. 
  * 			So contiguous arrays this step produce are (end – start). 
- * 			We also add el to previous sum. There are as many such arrays as the length of the window.
+ * 			We also add X to previous sum. There are as many such arrays as the length of the window.
  * 		Case 2: 
  * 			If sum becomes greater than or equal to k, 
  * 			this means we need to subtract starting element from sum so that the sum again becomes less than k. 
