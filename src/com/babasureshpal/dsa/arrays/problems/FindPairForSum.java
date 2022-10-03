@@ -36,6 +36,7 @@ import java.util.HashMap;
  * 			ii)		If not then insert it to Hashset and go to next element in the loop
  * 			iii)	else we found the pair, we can return boolean. 
  * 			iv)	
+ * 		c)	Time Complexity: O(n) 
  *
  */
 public class FindPairForSum {
