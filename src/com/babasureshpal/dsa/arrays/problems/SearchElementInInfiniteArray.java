@@ -3,7 +3,9 @@ package com.babasureshpal.dsa.arrays.problems;
 
 /**
  * @author Baba Suresh Pal
- * 	Problem: Search an element in an infinite array
+ * Reference:	
+ * 1.	https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
+ * 	Problem: Search an element in an infinite sorted array
  * 	Algorithm:
  * 		Since array is sorted, the first thing clicks into mind is binary search, 
  * 		but the problem here is that we don’t know size of array.
@@ -23,7 +25,6 @@ package com.babasureshpal.dsa.arrays.problems;
  *		The number of elements between h/2 and h must be O(p). 
  *		Therefore, time complexity of Binary Search step is also O(Log p) and overall time complexity is 2*O(Log p) 
  *		which is O(Log p). 
- * Reference:	https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
  */
 
 public class SearchElementInInfiniteArray {
