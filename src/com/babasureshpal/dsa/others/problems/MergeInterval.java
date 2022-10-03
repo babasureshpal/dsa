@@ -13,6 +13,10 @@ import com.babasureshpal.dsa.others.ds.Interval;
 
 /**
  * @author Baba Suresh Pal 
+ * References:
+ * 1.	https://www.geeksforgeeks.org/amazon-interview-set-109-campus/
+ * 2.	https://www.geeksforgeeks.org/merging-intervals/
+
  * Problem: Merge overlapping intervals(Very well known repeating problem). 
  * 			Given a set of time intervals in any order, merge all overlapping intervals into one 
  * 			and output the result which should have only mutually exclusive intervals. Let the intervals be represented as pairs of integers for simplicity. 
@@ -29,9 +33,6 @@ import com.babasureshpal.dsa.others.ds.Interval;
  * 				ii) If the current interval overlaps with stack top and ending time of current interval is more than that of stack top, 
  * 					update stack top with the ending time of current interval. 
  * 			d) At the end stack contains the merged intervals.
- *	Reference:
- *		https://www.geeksforgeeks.org/amazon-interview-set-109-campus
- *		https://www.geeksforgeeks.org/merging-intervals/
  
  *
  */
