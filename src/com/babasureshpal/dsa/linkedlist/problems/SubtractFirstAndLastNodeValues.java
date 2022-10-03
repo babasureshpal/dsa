@@ -10,6 +10,11 @@ import com.babasureshpal.dsa.linkedlist.ds.SinglyLinkedListNode;
 
 /**
  * @author Baba Suresh Pal
+ * 
+ * Reference:
+ * 1.	https://www.geeksforgeeks.org/amazon-interview-set-109-campus/
+ * 2.	https://www.geeksforgeeks.org/modify-contents-linked-list/
+ * 
  * Problem: Given a singly LinkedList you have to subtract the value of first node from the last node 
  * 			and so on until you reach the middle node.
  * 			e.g. 
