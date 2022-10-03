@@ -4,7 +4,8 @@
 package com.babasureshpal.dsa.graph.problems;
 
 /**
- * @author Baba Suresh Pal Problem: Given an array of non-negative integers and
+ * @author Baba Suresh Pal 
+ * 	Problem: Given an array of non-negative integers and
  *         a sum. We have to find sum of the subarray having a maximum sum less
  *         than or equal to the given sum in the array. (Note: Given array
  *         contains only non-negative integers.) Examples: 1. Input: arr[] = {

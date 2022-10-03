@@ -58,7 +58,7 @@ package com.babasureshpal.dsa.greedy.problems;
  *		If we find a starting point with a feasible solution, we return that starting point. 
  *		Time Complexity: O(N^2)
  *		Auxiliary Space: O(1)
- *	Solution-2: Brute Force:
+ *	Solution-2: Using Greedy Algorithm:
  *		Solution two approaches based on Greedy Algorithm.
  *		In the Brute force case, there are three properties that can be used to modify the algorithm and make the running time smaller.
  *		Property-1: If total gas < total cost, a successful route doesn't exist.
@@ -153,7 +153,6 @@ public class GasStation {
 		// now loop through the gas
 		int remainingFuel = 0;
 		int start = 0;
-		
 		
 		for(int i = 0; i < n; i++) { // Property-3 Loop ensures that the already visited stations are not revsited
 			remainingFuel += gas[i] - cost[i];
