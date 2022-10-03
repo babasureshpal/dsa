@@ -10,6 +10,8 @@ import java.util.HashMap;
  * @author Suresh Pal
  * Refernces: 
  * https://www.youtube.com/watch?v=XKu_SEDAykw
+ * https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
+ * https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
  * 
  * Problem:
  * Given an array of integers and an integer NUM, find the pair from the array of which sum is equal to the given integer Num
